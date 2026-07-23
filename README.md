@@ -1,5 +1,13 @@
 # Telegram RAG Bot
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11+-blue?logo=python">
+  <img src="https://img.shields.io/badge/FastAPI-0.115+-green?logo=fastapi">
+  <img src="https://img.shields.io/badge/LangChain-0.3+-orange?logo=chainlink">
+  <img src="https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram">
+  <img src="https://img.shields.io/badge/License-MIT-yellow">
+</p>
+
 AI-powered Telegram bot that answers questions from uploaded PDF documents using RAG (Retrieval-Augmented Generation).
 
 ## Stack
