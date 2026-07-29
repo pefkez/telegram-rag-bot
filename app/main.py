@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Telegram RAG Bot")
 
-# Build Telegram application
 telegram_app = Application.builder().token(settings.telegram_token).build()
 telegram_app.add_handler(CommandHandler("start", start))
 telegram_app.add_handler(MessageHandler(filters.Document.PDF, handle_document))
